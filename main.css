@@ -1,8 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
 html,
 body {
-    background: #333;
+    
     background-image: url('sneaker\ bg.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 .slides {
     padding: 0;
@@ -11,6 +14,8 @@ body {
     display: block;
     margin: 0 auto;
     position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .slides * {
     user-select: none;
