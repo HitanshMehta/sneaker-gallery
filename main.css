@@ -1,7 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
 html,
 body {
-    background: #333  img src="sneaker bg.jpeg" ;
+    background: #333;
+    background-image: url('sneaker\ bg.jpeg');
 }
 .slides {
     padding: 0;
@@ -100,6 +101,7 @@ input#img-2:checked ~ .nav-dots label#img-dot-2,
 input#img-3:checked ~ .nav-dots label#img-dot-3,
 input#img-4:checked ~ .nav-dots label#img-dot-4,
 input#img-5:checked ~ .nav-dots label#img-dot-5,
-input#img-6:checked ~ .nav-dots label#img-dot-6 {
+input#img-6:checked ~ .nav-dots label#img-dot-6,
+input#img-7:checked ~ .nav-dots label#img-dot-7 {
     background: rgba(0, 0, 0, 0.8);
 }
